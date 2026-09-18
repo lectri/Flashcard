@@ -1,0 +1,19 @@
+@import url(../../app.module.css);
+
+
+.new-set {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.new-set button {
+    background-color: #FFFF66;
+    width: 30%;
+    height: 75%;
+    font-size: 1em;
+
+    border-radius: 1%;
+    font-weight: bolder;
+}

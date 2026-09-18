@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Kedebideri:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+    --primary-color: #5354AC;
+    --secondary-color: #287FD2;
+    --accent1: #7576BD;
+    --accent2: #DA5254;
+    --dark-text-color: #262121;
+}
+
+body {
+    background-color: var(--primary-color);
+    color: var(--dark-text-color);
+    font-size: 2em;
+    font-family: 'Kedebideri', sans-serif;
+    font-weight: normal;
+}

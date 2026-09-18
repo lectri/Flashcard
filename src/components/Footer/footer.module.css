@@ -1,0 +1,21 @@
+
+
+.site-footer img {
+    display: inline;
+    height: 0.65em;
+    width: 0.65em;
+}
+
+.site-footer {
+    padding-right: 0.5em;
+    font-family: sans-serif;
+    font-weight: lighter;
+
+    text-align: center;
+    margin-top: 2em;
+}
+
+.site-footer p {
+    display: inline;
+    font-size: 0.55em;
+}

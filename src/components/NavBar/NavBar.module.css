@@ -1,0 +1,26 @@
+@import "../../app.module.css";
+
+
+.navbar a {
+    text-decoration: none;
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+.navbar a:visited {
+    color: inherit;
+}
+
+.home-logo {
+    color: var(--accent1);
+    font-weight: bolder;
+    font-size: 1.2em;
+    background-color: antiquewhite;
+    width: fit-content;
+
+    border-radius: 10px;
+
+    padding-left: 0.1em;
+    padding-right: 0.15em;
+
+}

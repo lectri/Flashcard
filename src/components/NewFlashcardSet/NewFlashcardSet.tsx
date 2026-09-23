@@ -1,12 +1,12 @@
-import Button from "../Button/Button";
+import Button from '../Button/Button';
 import Styles from './newflashcardset.module.css';
 
-const NewFlashcardSet = () => {
+const NewFlashcardSet = ({onCreateSet}: {onCreateSet: () => void}) => {
     return (
         <>
         <div className={Styles['new-set']}>
             <h1>Create a new flashcard set.</h1>
-            <Button/>
+            <Button label='+' onClick={onCreateSet}/>
         </div>
         </>
     )

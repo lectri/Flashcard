@@ -1,4 +1,5 @@
 import { useState } from "react";
+import NavBar from "../NavBar/NavBar";
 import Home from "../Home/Home";
 import FlashcardCreator from "../FlashcardCreator/FlashcardCreator";
 
@@ -6,11 +7,12 @@ import FlashcardCreator from "../FlashcardCreator/FlashcardCreator";
 const PageManager = () => {
 
     type View = "home" | "flashcard-creator";
-
     const [view, setView] = useState<View>("home");
 
     return (
     <> 
+        <NavBar/>
+        
         {/* Home */}
         {view === "home" && <Home onCreateSet={() => setView("flashcard-creator")}/>}
 

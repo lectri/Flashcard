@@ -5,12 +5,13 @@
     --secondary-color: #287FD2;
     --accent1: #7576BD;
     --accent2: #DA5254;
-    --dark-text-color: #262121;
+    --text-color: white;
+    --background-color: #212121;
 }
 
 body {
-    background-color: var(--primary-color);
-    color: var(--dark-text-color);
+    background-color: var(--background-color);
+    color: var(--text-color);
     font-size: 2em;
     font-family: 'Kedebideri', sans-serif;
     font-weight: normal;

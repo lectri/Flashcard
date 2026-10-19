@@ -1,0 +1,80 @@
+.card-widget {
+    width: 800px;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: var(--accent2);
+    padding: 0.5em;
+    border-radius: 5px;
+
+    font-size: 0.5em;
+
+    touch-action: none;
+}
+
+.card-widget textarea {
+    background-color: inherit;
+    color: white;
+    box-shadow: none;
+
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: darkgray;
+
+    resize: none;
+    overflow: visible;
+    field-sizing: content;
+    width: 100%;
+
+    font-size: 1em;
+}
+
+.card-widget textarea:focus {
+    outline: none;
+    box-shadow: none;
+    border-bottom-color: white;
+}
+
+.delete-button {
+    display: inline-block;
+}
+
+.delete-button button {
+    background-color: transparent;  
+    border: 0px;
+}
+
+.delete-button button:hover {
+    cursor: pointer;
+}
+
+.delete-button img {
+    width: 24px;
+    height: 24px;
+}
+
+.top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-row p {
+    font-size: 16px;
+    margin-left: 0;
+}
+
+.drag-handle {
+    margin: 0;
+    width: 20px;
+    opacity: 60%;
+}
+
+.drag-handle svg {
+    margin: 0;
+    padding: 0;
+}
+
+.drag-handle:hover {
+   cursor: grab;
+}

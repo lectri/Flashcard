@@ -1,0 +1,33 @@
+.creator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title-desc  {
+    margin-top: 15px;
+    background-color: gray;
+    color: white;
+    box-shadow: none;
+
+    border-color: white;
+
+    resize: none;
+    overflow: visible;
+    field-sizing: content;
+    width: 50%;
+
+    font-size: 0.75em;
+
+    height: 50%;
+    display: inherit;
+}
+
+.buttonRow {
+    margin: auto;
+}
+
+.cards {
+    padding-top: 15px;
+}

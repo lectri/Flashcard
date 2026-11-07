@@ -1,18 +1,34 @@
-@import url('https://fonts.googleapis.com/css2?family=Kedebideri:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kedebideri:wght@400;500;600;700;800;900&display=swap');
 
 :root {
-    --primary-color: #5354AC;
-    --secondary-color: #287FD2;
-    --accent1: #7576BD;
-    --accent2: #DA5254;
-    --text-color: white;
-    --background-color: #212121;
+    --primary-color: #062145;
+    --secondary-color: #6D91B4;
+    --accent1: #427CF6;;
+    --accent2: #7864FF;
+
+    --text-color: #e9eef2;
+    --text-description-color: #a0b1c2; /* For descriptions, labels etc */
+
+    --background-color: #031022;
+    --card-color: #0A2D5C;
+
+    --large-font-family: "Inter", sans-serif;
+    --large-font-weight: bold;
+    --large-font-letter-spacing: .03em;
+
+    --small-font-family: 'Kedebideri', sans-serif;
 }
 
 body {
     background-color: var(--background-color);
     color: var(--text-color);
     font-size: 2em;
-    font-family: 'Kedebideri', sans-serif;
-    font-weight: normal;
+
+    font-family: var(--large-font-family);
+    font-weight: var(--large-font-weight);
+    letter-spacing: var(--large-font-letter-spacing);
+    font-style: normal;
+
+    margin: 0;
+    padding: 0;
 }

@@ -1,8 +1,23 @@
+.set-preview {
+    padding: 10px 0;
+    text-align: center;
+
+    margin: 15px auto;
+    width: 65%;
+    max-width: 800px;
+    min-width: none;
+    background-color: var(--secondary-color);
+
+    border-radius: 15px;
+}
+
 .set-preview h2 {
     margin-top: 1em;
+    font-size: 1em;
 }
 
 .set-preview p {
-    text-align: left;
-    font-size: 5em;
+    font-size: 0.65em;
+    font-weight: bolder;
+    color: var(--text-description-color);
 }

@@ -6,7 +6,7 @@ const Footer = () => {
         <>
         <div className={Styles['site-footer']}>
             <footer>
-                <p>Made with React {'\u00A0'}</p>
+                <p>Made with React <br></br>{'\u00A0'}</p>
                 <img src={reactLogo} alt="React logo"></img>
             </footer>
         </div>

@@ -1,8 +1,24 @@
-@import url(../../app.module.css);
-
 .new-set {
-    display: flex;
-    justify-content: center;
+    display: block;
     align-items: center;
-    flex-direction: column;
+
+    margin: 0 auto 70px auto;
+    padding: 20px;
+    max-width: 500px;
+    border-radius: 15px;
+
+    font-size: 20px;
+    text-align: center;
+}
+
+.new-set button {
+    margin: 0 auto;
+    max-width: 100px;
+    transition: filter 0.3s ease;
+}
+
+
+.new-set button:hover {
+    filter: brightness(0.85);
+    cursor: pointer;
 }

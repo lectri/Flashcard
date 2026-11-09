@@ -4,10 +4,10 @@ const FlashcardSetPreview = () => {
     return (
         <>
         <div className={Styles['set-preview']}>
-
+            <h2>Your flashcard sets</h2>
+            <p>No flashcards found. Create a new set!</p>
         </div>
-        <h2>Your flashcard sets</h2>
-        <p>No flashcards found. Create a new set!</p>
+
         </>
     );
 }

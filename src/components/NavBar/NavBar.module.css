@@ -1,9 +1,16 @@
 @import "../../app.module.css";
 
+.navbar {
+    margin: 0 0 25px 0;
+    padding: 5px 0 10px 5px;
+    border-block: 1px solid #464b4f;
+    border-top: 0px;
+
+
+}
 
 .navbar a {
     text-decoration: none;
-    font-style: italic;
     font-size: 0.8em;
 }
 
@@ -12,15 +19,14 @@
 }
 
 .home-logo {
-    color: var(--accent1);
+    color: var(--secondary-color);
     font-weight: bolder;
-    font-size: 1.2em;
-    background-color: antiquewhite;
+    font-size: 1.1em;
+    background-color: inherit;
+
     width: fit-content;
-
-    border-radius: 10px;
-
     padding-left: 0.1em;
     padding-right: 0.15em;
 
+    letter-spacing: normal;
 }
